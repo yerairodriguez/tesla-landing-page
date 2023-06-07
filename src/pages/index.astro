@@ -2,7 +2,12 @@
 import LandingHeader from "../components/LandingHeader.astro";
 import MainSection from "../components/MainSection.astro";
 import Layout from "../layouts/Layout.astro";
-import ChargeSection from "../components/ChargeSection.astro";
+import ModelYSection from "../components/ModelYSection.astro";
+import Model3Section from "../components/Model3Section.astro";
+import ModelSSection from "../components/ModelSSection.astro";
+import ModelXSection from "../components/ModelXSection.astro";
+import PowerwallSection from "../components/PowerwallSection.astro";
+import AccesoriesSection from "../components/AccesoriesSection.astro";
 ---
 
 <Layout title="Tesla">
@@ -14,10 +19,22 @@ import ChargeSection from "../components/ChargeSection.astro";
 			<MainSection />
 		</div>
 		<div class="snap-center">
-			<ChargeSection />
+			<ModelYSection />
 		</div>
 		<div class="snap-center">
-			<MainSection />
+			<Model3Section />
+		</div>
+		<div class="snap-center">
+			<ModelSSection />
+		</div>
+		<div class="snap-center">
+			<ModelXSection />
+		</div>
+		<div class="snap-center">
+			<PowerwallSection />
+		</div>
+		<div class="snap-center">
+			<AccesoriesSection />
 		</div>
 	</main>
 </Layout>
